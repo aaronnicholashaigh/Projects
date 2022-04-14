@@ -1,0 +1,15 @@
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.csproj.AssemblyReference.cache
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.AssemblyInfoInputs.cache
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.AssemblyInfo.cs
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.csproj.CoreCompileInputs.cache
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\bin\Debug\net6.0\BaseExponent2.exe
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\bin\Debug\net6.0\BaseExponent2.deps.json
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\bin\Debug\net6.0\BaseExponent2.runtimeconfig.json
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\bin\Debug\net6.0\BaseExponent2.dll
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\bin\Debug\net6.0\ref\BaseExponent2.dll
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\bin\Debug\net6.0\BaseExponent2.pdb
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.dll
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\ref\BaseExponent2.dll
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.pdb
+C:\Users\AHaigh\Desktop\Projects\BaseExponent2\obj\Debug\net6.0\BaseExponent2.genruntimeconfig.cache

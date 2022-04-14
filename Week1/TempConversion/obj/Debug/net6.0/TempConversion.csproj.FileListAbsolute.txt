@@ -1,0 +1,15 @@
+C:\Users\AHaigh\Desktop\Projects\TempConversion\bin\Debug\net6.0\TempConversion.exe
+C:\Users\AHaigh\Desktop\Projects\TempConversion\bin\Debug\net6.0\TempConversion.deps.json
+C:\Users\AHaigh\Desktop\Projects\TempConversion\bin\Debug\net6.0\TempConversion.runtimeconfig.json
+C:\Users\AHaigh\Desktop\Projects\TempConversion\bin\Debug\net6.0\TempConversion.dll
+C:\Users\AHaigh\Desktop\Projects\TempConversion\bin\Debug\net6.0\ref\TempConversion.dll
+C:\Users\AHaigh\Desktop\Projects\TempConversion\bin\Debug\net6.0\TempConversion.pdb
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.csproj.AssemblyReference.cache
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.AssemblyInfoInputs.cache
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.AssemblyInfo.cs
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.csproj.CoreCompileInputs.cache
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.dll
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\ref\TempConversion.dll
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.pdb
+C:\Users\AHaigh\Desktop\Projects\TempConversion\obj\Debug\net6.0\TempConversion.genruntimeconfig.cache

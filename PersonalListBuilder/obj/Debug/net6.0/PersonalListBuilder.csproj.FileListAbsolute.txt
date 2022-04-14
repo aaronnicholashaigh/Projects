@@ -1,0 +1,15 @@
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\bin\Debug\net6.0\PersonalListBuilder.exe
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\bin\Debug\net6.0\PersonalListBuilder.deps.json
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\bin\Debug\net6.0\PersonalListBuilder.runtimeconfig.json
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\bin\Debug\net6.0\PersonalListBuilder.dll
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\bin\Debug\net6.0\ref\PersonalListBuilder.dll
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\bin\Debug\net6.0\PersonalListBuilder.pdb
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.csproj.AssemblyReference.cache
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.AssemblyInfoInputs.cache
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.AssemblyInfo.cs
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.csproj.CoreCompileInputs.cache
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.dll
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\ref\PersonalListBuilder.dll
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.pdb
+C:\Users\AHaigh\Desktop\Projects\PersonalListBuilder\obj\Debug\net6.0\PersonalListBuilder.genruntimeconfig.cache

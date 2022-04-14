@@ -1,0 +1,15 @@
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\bin\Debug\net6.0\FoodMenu.exe
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\bin\Debug\net6.0\FoodMenu.deps.json
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\bin\Debug\net6.0\FoodMenu.runtimeconfig.json
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\bin\Debug\net6.0\FoodMenu.dll
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\bin\Debug\net6.0\ref\FoodMenu.dll
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\bin\Debug\net6.0\FoodMenu.pdb
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.csproj.AssemblyReference.cache
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.AssemblyInfoInputs.cache
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.AssemblyInfo.cs
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.csproj.CoreCompileInputs.cache
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.dll
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\ref\FoodMenu.dll
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.pdb
+C:\Users\AHaigh\Desktop\Projects\FoodMenu\obj\Debug\net6.0\FoodMenu.genruntimeconfig.cache
