@@ -12,9 +12,6 @@ namespace CreateFiles
             bool userChoice;
 
             string[] nameArray = new string[10];
-            Console.WriteLine"hi";
-          
-
             do
             {
 
@@ -30,20 +27,16 @@ namespace CreateFiles
                     Console.WriteLine("Enter 'S' to store the array into a text file:");
                     Console.WriteLine("Enter 'C' to to add a name to the array:");
                     Console.WriteLine("Enter 'R' to read a name from the array:");
-                    Console.WriteLine("Enter 'U' to update a name in the array:");
-                    Console.WriteLine("Enter 'D' to delete a name from the array:");
                     Console.WriteLine("Enter 'Q' to quit the program:");
                     Console.WriteLine("");
 
                     //TODO: Get a user option (valid means it is on the menu)
                     userChoiceString = Console.ReadLine();
 
-                    userChoice =        (userChoiceString == "L" || userChoiceString == "l" ||
+                    userChoice =        (userChoiceString == "O" || userChoiceString == "o" ||
                                         userChoiceString == "S" || userChoiceString == "s" ||
                                         userChoiceString == "C" || userChoiceString == "c" ||
                                         userChoiceString == "R" || userChoiceString == "r" ||
-                                        userChoiceString == "U" || userChoiceString == "u" ||
-                                        userChoiceString == "D" || userChoiceString == "d" ||
                                         userChoiceString == "Q" || userChoiceString == "q");
 
                     if (!userChoice)
@@ -55,8 +48,8 @@ namespace CreateFiles
                 } while (!userChoice);
 
 
-                //"Enter 'L' to load the data file into an array:"
-                if (userChoiceString == "L" || userChoiceString == "l")
+                //"Enter 'O' to load the data file into an array:"
+                if (userChoiceString == "O" || userChoiceString == "o")
                 {
                     int index = 0;   //index for the array
                     using (StreamReader sr = File.OpenText("names.txt"))
@@ -130,29 +123,6 @@ namespace CreateFiles
                     {
                         Console.WriteLine(nameArray[index]);
                     }
-                }
-
-                //"Enter 'U' to update a name in the array:"
-                else if (userChoiceString == "U" || userChoiceString == "u")
-                {
-                    Console.WriteLine("In the U/u area!");
-                    Console.WriteLine("What name do you want to update?");
-                    string whichName = Console.ReadLine();
-
-                    bool contains = false;
-                    for (int i = 0; i < nameArray.Length; i++)
-                    {
-                        if (whichName == nameArray[i]);
-                        {
-                            contains = true;
-                        }
-                    }
-                }
-
-                //"Enter 'D' to delete a name from the array:"
-                else if (userChoiceString == "D" || userChoiceString == "d")
-                {
-                    Console.WriteLine("In the D/d area!");
                 }
 
                 //"Enter 'Q' to quit the program:"
