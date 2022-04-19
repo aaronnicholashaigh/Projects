@@ -12,7 +12,8 @@ namespace CreateFiles
             bool userChoice;
 
             string[] nameArray = new string[10];
-            
+            Console.WriteLine"hi";
+          
 
             do
             {
