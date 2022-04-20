@@ -1,0 +1,15 @@
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.csproj.AssemblyReference.cache
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.AssemblyInfoInputs.cache
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.AssemblyInfo.cs
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.csproj.CoreCompileInputs.cache
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\bin\Debug\net6.0\Books.exe
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\bin\Debug\net6.0\Books.deps.json
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\bin\Debug\net6.0\Books.runtimeconfig.json
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\bin\Debug\net6.0\Books.dll
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\bin\Debug\net6.0\ref\Books.dll
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\bin\Debug\net6.0\Books.pdb
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.dll
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\ref\Books.dll
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.pdb
+C:\Users\AHaigh\Desktop\Projects\Week3\Books\obj\Debug\net6.0\Books.genruntimeconfig.cache

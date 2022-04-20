@@ -1,0 +1,15 @@
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\bin\Debug\net6.0\WeekTwoCompetency.exe
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\bin\Debug\net6.0\WeekTwoCompetency.deps.json
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\bin\Debug\net6.0\WeekTwoCompetency.runtimeconfig.json
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\bin\Debug\net6.0\WeekTwoCompetency.dll
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\bin\Debug\net6.0\ref\WeekTwoCompetency.dll
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\bin\Debug\net6.0\WeekTwoCompetency.pdb
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.csproj.AssemblyReference.cache
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.AssemblyInfoInputs.cache
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.AssemblyInfo.cs
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.csproj.CoreCompileInputs.cache
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.dll
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\ref\WeekTwoCompetency.dll
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.pdb
+C:\Users\AHaigh\Desktop\Projects\Week2\WeekTwoCompetency\obj\Debug\net6.0\WeekTwoCompetency.genruntimeconfig.cache

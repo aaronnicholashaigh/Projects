@@ -1,130 +1,139 @@
 ﻿using System;
 using System.IO;
 
-namespace CreateFiles
+namespace Week2Competency
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Declare Variables
-            string userChoiceString;
+            // declare variables
             bool userChoice;
+            string userChoiceString;
+            string[] nameArray = new string[25];
+            string[] rateArray = new string[25];
+            string[] nameRateArray = new string[50];
 
-            string[] restaurantNameArray = new string[25];
-            string[] restaurantRatingArray = new string[25];
-
+            // repeat main loop
             do
             {
 
-            //TODO: get a valid input
+                // get a valid input
                 do
                 {
-                    //Initialize variables
-                    userChoice = false;
+                    //Menu of options
+                    Console.WriteLine("Please select an option:?");
+                    Console.WriteLine("O: Open the reviews file");
+                    Console.WriteLine("S: Save changes");
+                    Console.WriteLine("C: Create a new restaurant rating");
+                    Console.WriteLine("R: Read/print a list of restaurants and their ratings");
+                    Console.WriteLine("U: Update a restaurant and/or their rating");
+                    Console.WriteLine("D: Delete a restaurant");
+                    Console.WriteLine("Q: Quit the program");
 
-                    //TODO: Provide the user a menu of options
-                    Console.WriteLine("Please enter an option:");
-                    Console.WriteLine("Enter 'O' to load the data file into an array:");
-                    Console.WriteLine("Enter 'S' to save your list:");
-                    Console.WriteLine("Enter 'C' to add a restaurant and rating:");
-                    Console.WriteLine("Enter 'R' to print a list of all restaurants and their ratings:");
-                    Console.WriteLine("Enter 'Q' to quit the program:");
-                    Console.WriteLine("");
-
-                    //TODO: Get a user option (valid means it is on the menu)
+                    // get valid option from user
+                        
                     userChoiceString = Console.ReadLine();
-
-                    userChoice =        (userChoiceString == "O" || userChoiceString == "o" ||
-                                        userChoiceString == "S" || userChoiceString == "s" ||
-                                        userChoiceString == "C" || userChoiceString == "c" ||
-                                        userChoiceString == "R" || userChoiceString == "r" ||
-                                        userChoiceString == "Q" || userChoiceString == "q");
+                    userChoice = (userChoiceString == "O" || userChoiceString == "o" ||
+                                userChoiceString == "S" || userChoiceString == "s" ||
+                                userChoiceString == "C" || userChoiceString == "c" ||
+                                userChoiceString == "R" || userChoiceString == "r" ||
+                                userChoiceString == "U" || userChoiceString == "u" ||     //doesn't work
+                                userChoiceString == "D" || userChoiceString == "d" ||     //doesn't work
+                                userChoiceString == "Q" || userChoiceString == "q");
 
                     if (!userChoice)
                     {
-                     Console.WriteLine("Please enter a valid option:");
-                     }
+                        Console.WriteLine("Please enter a valid option from the list.");
+                    }
+            
+                 } while (!userChoice);
 
 
-                } while (!userChoice);
-
-
-                //"Enter 'O' to load the data file into an array:"
-                if (userChoiceString == "O" || userChoiceString == "o")
+                //TO DO: O -- Open the user's list of restaurants
+                if (userChoiceString=="O" || userChoiceString=="o")
                 {
-                    int index = 0;   //index for the array
-                    using (StreamReader sr = File.OpenText("names.txt"))
+                    int index = 0; //index for my array
+                    using (StreamReader sr = File.OpenText("RestaurantReviews.txt"))
                     {
-                        string s = "";
-                        Console.WriteLine(" Here is the content of the file");
-                        while ((s = sr.ReadLine()) !=null)
+                        string rName = "";
+                        string rRate = "";
+                        Console.WriteLine("Restaurant Reviews: ");
+                        while ((rName = sr.ReadLine()) != null)
                         {
-                            Console.WriteLine(s);
-                            restaurantNameArray[index] = s;
+                            Console.WriteLine(rName);
+                            nameArray[index] = rName; 
+                            rRate = sr.ReadLine();
+                            Console.WriteLine(rRate);
+                            rateArray[index] = rRate;
                             index = index + 1;
                         }
                     }
                 }
 
-                //"Enter 'S' to store the array into a text file:"
-                else if (userChoiceString == "S" || userChoiceString == "s")
+                //TO DO: S -- Save the user's list of restaurants (no blank lines in data file)
+                // functions, but adds blank lines to end
+                else if (userChoiceString=="S" || userChoiceString=="s")
                 {
-
-                    Console.WriteLine("In the S/s area!");
                     int index = 0;
-
-                    //delete the file if it exists
-                    if (File.Exists("names.txt"))
+                    using (StreamWriter sw = new StreamWriter("RestaurantReviews.txt"))
                     {
-                        File.Delete("names.txt");
-                    }
-
-                    //create the file
-                    using (StreamWriter fileStr = File.CreateText("names.txt"))
+                  
+                    for (index = 0; index < nameArray.Length; index++)
                     {
-                        for (index = 0; index < 25; index++)
-                        {
-                            fileStr.WriteLine(restaurantNameArray[index]);
-                        }
-                    }
-                    Console.WriteLine("names.txt" + " has been saved.");
-                    Console.WriteLine("");
-                }
+                      if((nameArray[index] != null))
+                      {
+                          sw.WriteLine(nameArray[index]);
+                          sw.WriteLine(rateArray[index]);
+                      }
 
-                //"Enter 'C' to to add a name to the array:"
-                else if (userChoiceString == "C" || userChoiceString == "c")
-                {
-                    Console.WriteLine("In the S/s area!");
-                    int index = 0;
-                    Console.WriteLine("What name do you want to add?");
-                    string newName = Console.ReadLine();
-                    bool found = false;
-                    
-                    for (index = 0; index < 25; index++)
-                    {
-                        if ((restaurantNameArray[index] == "") && found == false)
-                        {
-                            restaurantNameArray[index] = newName;
-                            found = true;
-                            Console.WriteLine(restaurantNameArray[index]);
-                        }
-                    }
-
-                    if (!found)
-                    {
-                        Console.WriteLine("There is no space to add");
                     }
                 }
+              Console.WriteLine("Your updates have been saved.");
+            }
 
-                //"Enter 'R' to read a name from the array:"
-                else if (userChoiceString == "R" || userChoiceString == "r")
+                //TO DO: C -- Add a restaurant and rating (make sure user provides both, also handle "file full" case)
+                //do validation for rating, 
+                else if (userChoiceString=="C" || userChoiceString=="c")
                 {
-                    Console.WriteLine("In the R/r area!");
-                    for (int index = 0; index < 25; index++)
+                bool contains = false;
+                    for (int index = 0; index < nameArray.Length; index++)
                     {
-                        Console.WriteLine(restaurantNameArray[index]);
+                        if((nameArray[index] == null) && (contains == false))
+                        {
+                        contains = true;
+                        //get new name from user
+                        Console.WriteLine("Please enter the name of the restaurant you want to add.");
+                        string newName = Console.ReadLine();
+                        nameArray[index] = newName;
+                        //get new rate from user
+                        Console.WriteLine("Please enter a rating between 1 and 5.");
+                        string newRating = Console.ReadLine();
+                        rateArray[index] = newRating;
+                        Console.WriteLine("The restaurant review has been added.");
+                        }
+
                     }
+
+                    if(contains == false)
+                    {
+                        Console.WriteLine("The list is full.");
+                    }
+
+                }
+
+                //TO DO: R -- Read/Print a list of all the restaurants and their ratings (no blank lines, handle "nothing in list" case)
+                else if (userChoiceString=="R" || userChoiceString=="r")
+                {
+                for (int index = 0; index < nameArray.Length; index++)
+                    {
+                    if((nameArray[index] != null))
+                        {
+                            Console.WriteLine(nameArray[index]);
+                            Console.WriteLine(rateArray[index]);
+                        }
+                    }
+
                 }
 
                 //"Enter 'Q' to quit the program:"
