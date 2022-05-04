@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHaigh\\Desktop\\Projects\\Week3\\Week3Competency\\Week3Competency.csproj": {}
+    "C:\\Users\\AHaigh\\Desktop\\Projects\\week3\\Week3Competency\\Week3Competency.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHaigh\\Desktop\\Projects\\Week3\\Week3Competency\\Week3Competency.csproj": {
+    "C:\\Users\\AHaigh\\Desktop\\Projects\\week3\\Week3Competency\\Week3Competency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHaigh\\Desktop\\Projects\\Week3\\Week3Competency\\Week3Competency.csproj",
+        "projectUniqueName": "C:\\Users\\AHaigh\\Desktop\\Projects\\week3\\Week3Competency\\Week3Competency.csproj",
         "projectName": "Week3Competency",
-        "projectPath": "C:\\Users\\AHaigh\\Desktop\\Projects\\Week3\\Week3Competency\\Week3Competency.csproj",
+        "projectPath": "C:\\Users\\AHaigh\\Desktop\\Projects\\week3\\Week3Competency\\Week3Competency.csproj",
         "packagesPath": "C:\\Users\\AHaigh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHaigh\\Desktop\\Projects\\Week3\\Week3Competency\\obj\\",
+        "outputPath": "C:\\Users\\AHaigh\\Desktop\\Projects\\week3\\Week3Competency\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AHaigh\\AppData\\Roaming\\NuGet\\NuGet.Config",

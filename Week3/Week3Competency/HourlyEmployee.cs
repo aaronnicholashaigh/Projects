@@ -4,35 +4,36 @@ namespace MyApplication
 {
   class Hourly : Employee
   {
-      public float hourlyPay
+      public float HourlyPay
       { get; set; }
  
 
-      //default constructor
+      //Create my default constructor
       public Hourly ()
       {
-          hourlyPay = 0.0f;
+          HourlyPay = 0.0f;
       }
       
-      //constructor that passes values
+      //Create my constructor that passes values
       public Hourly (float aHourlyPay, string aFirstName, string aLastName, char aEmployeeType): base(aFirstName, aLastName, aEmployeeType)
       {
-          hourlyPay = aHourlyPay;
+          HourlyPay = aHourlyPay;
       }
       
-      //Calculate bonus 
+      //Calculate the bonus 
         public int HourlyBonusMethod ()
         {
-            double doubleHourlyPay = (double) hourlyPay;
+            double doubleHourlyPay = (double) HourlyPay;
             double doubleHourlyBonus = doubleHourlyPay * 80;
             int intHourlyBonus = (int) doubleHourlyBonus;
 
             return intHourlyBonus;
         }
 
+      //Create my polymorphism. Use ToString Method.
       public override string ToString ()
       {
-          return firstName + " " + getEmployeeLastName() + " is an " + employeeType + " employee. Their bonus is: " + HourlyBonusMethod() + ".";
+          return firstName + " " + getEmployeeLastName() + " is an " + employeeType + " employee. Their bonus will be: " + HourlyBonusMethod() + ".";
       }
   }
 }

@@ -6,21 +6,22 @@ namespace MyApplication
   {
       private string lastName;
       
+
       public string firstName
       { get; set; }
 
       public char employeeType
       { get; set; }
 
-      //default constructor
+      //Create my default constructor
       public Employee ()
       {
           lastName = null;
           firstName = null; 
-          employeeType = '0';
+          employeeType = '\0';
       }
       
-      //constructor that passes values
+      //Create my constructor that passes values
       public Employee (string aLastName, string aFirstName, char aEmployeeType)
       {
           lastName = aLastName;
@@ -28,7 +29,7 @@ namespace MyApplication
           employeeType = aEmployeeType;
       }
 
-      //get/set for employee last name
+      //Create a get/set methods for employee lastName
       public string getEmployeeLastName()
       {
           return lastName;
@@ -39,16 +40,14 @@ namespace MyApplication
         lastName = anotherLastName;
       }
 
-      //Calculate bonus 
+      
+      //Calculate the bonus 
       int employeeBonus = 0;
 
       //Create my polymorphism. Use ToString Method.
       public override string ToString ()
       {
-          return firstName + ", " + lastName + " is an " + employeeType + " employee. Their bonus is: " + employeeBonus + ".";
+          return firstName + " " + lastName + " is an " + employeeType + " employee. Their bonus will be: " + employeeBonus + ".";
       }
-
-    
   }
-} 
-
+}
