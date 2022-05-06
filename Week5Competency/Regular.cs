@@ -2,23 +2,21 @@ using System;
 
 namespace CustomerMemberships
 {
-	class Corporate: Membership
+	class Regular: Membership, ISpecialOffer
   {
 		public double CashBackPercent
-		{get; set;}
+		{ get; set; }
 
 		//default constructor
-		public Corporate(): base() {}
+		public Regular(): base() {}
 
 		//constructor passing parameters
-		public Corporate(int newId, string newEmail, string newType, double newCost, double newTotal, double newPercent): base(newId, newEmail, newType, newCost, newTotal) 
-        {
+		public Regular(int newId, string newEmail, string newType, double newCost, double newTotal, double newPercent): base(newId, newEmail, newType, newCost, newTotal) {
 			CashBackPercent = newPercent;
 		}
-	
-		//10% cashback, then zero out monthly total
-		public override double ApplyCashbackReward() 
-        {
+		
+		//5% cashback, then zero out
+		public override double ApplyCashbackReward() {
 			if (MonthlyPurchaseTotal > 0) 
             {
 				double cashBack = MonthlyPurchaseTotal * (CashBackPercent / 100);
@@ -37,9 +35,15 @@ namespace CustomerMemberships
 			return MonthlyPurchaseTotal;
 		}
 
+		//interface special offer (25%)
+		public double SpecialOffer() 
+        {
+			return AnnualCost * 0.25;
+		}
+
 		public override string ToString() 
         {
-			return base.ToString();
+			return base.ToString() + $"\nSpecial Offer! Your {MembershipType} Membership costs only ${SpecialOffer()}";
 		}
   }
 }

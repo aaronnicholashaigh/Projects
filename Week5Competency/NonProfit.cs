@@ -16,9 +16,7 @@ namespace CustomerMemberships
 			CashBackPercent = newPercent;
 		}
 		
-		//cashback
-		//non-profit membership has a cash-back percentage (6%) and also a field to indicate if it is a military or educational organization and if so doubles the cash-back percentage
-		//once applied, zero out monthly purchase total
+		//non-profit and military cashback.  After use, zero total
 		public override double ApplyCashbackReward() 
         {
 			//if monthlypuchasetotal == 0 (ex: if cashback already applied)
@@ -29,14 +27,13 @@ namespace CustomerMemberships
 
 			else if (MonthlyPurchaseTotal > 0) 
             {
-				//initialize variable for later
 				double cashBack = 0D;
 				
 				//military or education? if so, extra cashback
 				Console.WriteLine("Is your nonprofit Military or Education? Y / N");
 				string milOrEd = (Console.ReadLine()).ToUpper();
 
-				if (milOrEd == "Y") 
+				if (milOrEd == "Y" || milOrEd == "y") 
                 {
 					cashBack = MonthlyPurchaseTotal * (CashBackPercent / 100);
 				} 

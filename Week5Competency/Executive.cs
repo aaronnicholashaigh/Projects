@@ -16,9 +16,7 @@ namespace CustomerMemberships
 			CashBackPercent = newPercent;
 		}
 		
-		//cashback
-		//executive membership has percentages for two tiers (one below $1000 [3.5%] and one above [7%]) of cash-back rewards
-		//once applied, zero out monthly purchase total
+		//two tiers. Below $1k = 3.5%, about = 7%
 		public override double ApplyCashbackReward() 
         {
 			//if monthlypuchasetotal == 0 (ex: if cashback already applied)
@@ -49,12 +47,10 @@ namespace CustomerMemberships
 				//set monthly purchase total to 0.00
 				MonthlyPurchaseTotal = 0D;
 			}
-
 			return MonthlyPurchaseTotal;
 		}
 
-		//special offer from interface
-		//50% for executive
+		//interface special offer
 		public double SpecialOffer() 
         {
 			return AnnualCost * 0.5;
@@ -62,7 +58,7 @@ namespace CustomerMemberships
 
 		public override string ToString() 
         {
-			return base.ToString() + $"\nSpecial Offer! Your {MembershipType} Membership costs only ${SpecialOffer()}";
+			return base.ToString() + $"\nSpecial Offer! Your {MembershipType} Membership costs ${SpecialOffer()}";
 		}
   }
 }
